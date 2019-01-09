@@ -1,14 +1,4 @@
-/*!
-    Title: Dev Portfolio Template
-    Version: 1.2.1
-    Last Change: 08/27/2017
-    Author: Ryan Fitzgerald
-    Repo: https://github.com/RyanFitzgerald/devportfolio-template
-    Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
 
-    Description: This file contains all the scripts associated with the single-page
-    portfolio website.
-*/
 
 (function($) {
 
@@ -22,8 +12,8 @@
         if ($(this).hasClass('no-scroll')) return;
 
         e.preventDefault();
-        var heading = $(this).attr('href');
-        var scrollDistance = $(heading).offset().top;
+        let heading = $(this).attr('href');
+        let scrollDistance = $(heading).offset().top;
 
         $('html, body').animate({
             scrollTop: scrollDistance + 'px'
@@ -44,7 +34,7 @@
 
     // Scroll to first element
     $('#lead-down span').click(function() {
-        var scrollDistance = $('#lead').next().offset().top;
+        let scrollDistance = $('#lead').next().offset().top;
         $('html, body').animate({
             scrollTop: scrollDistance + 'px'
         }, 500);
@@ -68,7 +58,7 @@
 
         // Add dates to the timeline if exists
         $this.find('.vtimeline-content').each(function() {
-            var date = $(this).data('date');
+            let date = $(this).data('date');
             if (date) { // Prepend if exists
                 $(this).parent().prepend('<span class="vtimeline-date">'+date+'</span>');
             }

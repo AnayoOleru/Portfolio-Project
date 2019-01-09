@@ -1,0 +1,25 @@
+{
+  "name": "oleru-joshua",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnayoOleru/Portfolio-Project.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Oleru Joshua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnayoOleru/Portfolio-Project/issues"
+  },
+  "homepage": "https://github.com/AnayoOleru/Portfolio-Project#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
